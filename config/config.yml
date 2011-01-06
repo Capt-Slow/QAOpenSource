@@ -5,7 +5,7 @@ development: &non_production_settings
     username: bubba
     password: s0meth1ngs3cr3t
   google_analytics_account_name: yourGaAccountnum
-  your_domain_name:          http://www.ror-e.com
+  your_domain_name:          http://www.qaopensource.com
 
 test:
   <<: *non_production_settings
