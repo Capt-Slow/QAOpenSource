@@ -1,5 +1,6 @@
 # Load the rails application
 require File.expand_path('../application', __FILE__)
+#require ("selenium.yml")
 
 # Load custom config file for current environment
 raw_config = File.read("config/config.yml")
