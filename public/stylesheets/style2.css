@@ -286,13 +286,14 @@ html, body {
 body#home {
   background-color: #fff; }
   body#home h1 {
-    text-indent: -9999em;
+    
     overflow: hidden;
-    background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    /*background-image: url('../images/logo.png');
+    text-indent: -9999em;
     height: 270px;
-    margin-top: 0.25em; }
+    margin-top: 0.25em;*/ }
   body#home h1.logo2 {
     text-indent: -9999em;
     overflow: hidden;
