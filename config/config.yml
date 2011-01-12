@@ -7,6 +7,15 @@ development: &non_production_settings
   google_analytics_account_name: yourGaAccountnum
   your_domain_name:          http://www.qaopensource.com
 
+production:
+  mailer:
+    server: mail.example.com
+    username: bubba
+    password: s0meth1ngs3cr3t
+  google_analytics_account_name: josh.tewing@gmail.com
+  your_domain_name:          http://www.qaopensource.com
+
+
 test:
   <<: *non_production_settings
 

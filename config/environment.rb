@@ -8,3 +8,5 @@ BLOG_CONFIG = YAML.load(raw_config)[Rails.env]
 
 # Initialize the rails application
 DocEcommerce::Application.initialize!
+
+
